@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Care of Children</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--    Name Sections-->
+
+    <string name="section1">1. How to find drinking water</string>
+    <string name="section2">2. How to find and/or build a shelter</string>
+    <string name="section3">3. How to make a fire</string>
+    <string name="section4">4. Teach your child to swim</string>
+    <string name="section5">5. How to use a knife</string>
+    <string name="section6">6. First Aid Basics</string>
+    <string name="section7">7. Basic self-defense forever</string>
+    <string name="section8">8. Sewing</string>
+    <string name="section9">9. Using maps and compasses</string>
+    <string name="section10">10. How to get to family, relatives or close friends</string>
+    <string name="section11">11. What to do in case of a natural disaster</string>
+    <string name="section12">12. Technical maintenance of the vehicle</string>
+    <string name="section13">13. Gardening skills</string>
+    <string name="section14">14. Climbing trees</string>
+    <string name="section15">15. Fishing skills</string>
+    <string name="section16">16. Botanical skills</string>
+    <string name="section17">17. Teach your child to open canned food with and without a can opener</string>
+    <string name="section18">18. Sending an SOS signal </string>
+    <string name="section19">19. Using the GPS function in the phone</string>
+
+    <string name="language_rus">Russian</string>
+    <string name="language_eng">English</string>
+
+    <string name="double_toast">Please press BACK again to exit</string>
+
+    <!--    Sections info-->
+
+
+
+</resources>
