@@ -72,6 +72,15 @@
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_pictures"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                tools:itemCount="2"
+                tools:listitem="@layout/item_pictures" />
+
             <androidx.cardview.widget.CardView
                 android:id="@+id/card_video1"
                 android:layout_width="match_parent"
@@ -115,15 +124,6 @@
 
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
-
-            <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/rv_pictures"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-                tools:itemCount="2"
-                tools:listitem="@layout/item_pictures" />
-
 
 
         </LinearLayout>
