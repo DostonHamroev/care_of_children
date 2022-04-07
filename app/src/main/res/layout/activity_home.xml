@@ -13,7 +13,8 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="@drawable/back1">
 
         <LinearLayout
             android:id="@+id/top_linear"
@@ -75,7 +76,7 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="start"
-        android:background="@color/grey"
+        android:background="#80F6F6F6"
         android:fitsSystemWindows="true">
 
         <LinearLayout
@@ -83,8 +84,10 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <androidx.core.widget.NestedScrollView
+            <com.factor.bouncy.BouncyNestedScrollView
                 android:layout_width="match_parent"
+                app:fling_animation_size="0.7"
+                app:overscroll_animation_size="0.7"
                 android:layout_height="match_parent">
 
                 <LinearLayout
@@ -115,10 +118,10 @@
                                     android:id="@+id/card_logo"
                                     android:layout_width="100dp"
                                     android:layout_height="100dp"
+                                    android:layout_gravity="center"
                                     android:layout_margin="10dp"
                                     app:cardCornerRadius="10dp"
                                     app:cardElevation="5dp"
-                                    android:layout_gravity="center"
                                     app:layout_constraintBottom_toBottomOf="parent"
                                     app:layout_constraintLeft_toLeftOf="parent"
                                     app:layout_constraintRight_toRightOf="parent"
@@ -141,6 +144,8 @@
                                     android:layout_height="wrap_content"
                                     android:layout_margin="5dp"
                                     android:padding="10dp"
+                                    android:layout_gravity="center"
+                                    android:gravity="center"
                                     android:text="@string/app_name"
                                     android:textColor="@color/black"
                                     android:textSize="20sp"
@@ -162,7 +167,7 @@
 
 
                 </LinearLayout>
-            </androidx.core.widget.NestedScrollView>
+            </com.factor.bouncy.BouncyNestedScrollView>
 
         </LinearLayout>
 

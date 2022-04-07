@@ -50,4 +50,6 @@ dependencies {
 
     //you tube player
     implementation 'com.pierfrancescosoffritti.androidyoutubeplayer:core:11.0.1'
+    //bouncy
+    implementation files('../libs/bouncy.aar')
 }

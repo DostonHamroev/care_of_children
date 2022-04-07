@@ -25,6 +25,11 @@ class SubjectActivity : AppCompatActivity() {
 
         Cache.init(this)
         loadSubjects()
+
+        binding.back.setOnClickListener {
+            finish()
+        }
+
         picturesAdapter =
             PicturesAdapter(this, listImage, object : PicturesAdapter.OnPicturesClickListener {
                 override fun onClick(pictures: Pictures, position: Int) {

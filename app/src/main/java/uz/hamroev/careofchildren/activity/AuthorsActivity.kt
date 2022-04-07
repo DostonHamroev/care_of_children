@@ -20,7 +20,11 @@ class AuthorsActivity : AppCompatActivity() {
         setContentView(binding.root)
 
 
-        binding.mentorName.text = resources.getString(R.string.mentor)
+        binding.back.setOnClickListener {
+            finish()
+        }
+
+
         loadData()
         userAdapter = UserAdapter(this, list)
         binding.rvUsers.adapter = userAdapter
@@ -28,6 +32,7 @@ class AuthorsActivity : AppCompatActivity() {
 
     private fun loadData() {
         list = ArrayList()
+        list.add(User(resources.getString(R.string.info_saida), R.drawable.ic_saida))
         list.add(User(resources.getString(R.string.info_kamila), R.drawable.ic_kamila))
         list.add(User(resources.getString(R.string.info_madina), R.drawable.ic_madina))
 
