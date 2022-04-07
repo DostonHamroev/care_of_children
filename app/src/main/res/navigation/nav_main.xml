@@ -9,5 +9,14 @@
         android:id="@+id/homeFragment"
         android:name="uz.hamroev.careofchildren.fragment.HomeFragment"
         android:label="fragment_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_authorFragment"
+            app:destination="@id/authorFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/authorFragment"
+        android:name="uz.hamroev.careofchildren.fragment.AuthorFragment"
+        android:label="fragment_author"
+        tools:layout="@layout/fragment_author" />
 </navigation>

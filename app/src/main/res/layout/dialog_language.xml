@@ -78,7 +78,7 @@
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                android:background="#f6f6f6" />
+                android:background="#C5C3C3" />
 
             <LinearLayout
                 android:id="@+id/uk"

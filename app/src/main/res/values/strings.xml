@@ -51,5 +51,14 @@
     <string name="info18">Your child should be able to send this signal using the radio or know how it sounds:</string>
     <string name="info19">If it suddenly happens that the child has a phone in his hands, and the GPS works — they need to be able to use it. At least to know how to get home. To make this task easier for the child, you can mark the house on the map in GPS. We know that children get used to new technologies very quickly, so mastering GPS should not be a problem for them. Also, many parents install an application on their smartphone that allows them to track their children by GPS, in case they get lost.</string>
 
+    <string name="home">Home</string>
+    <string name="users">Authors</string>
+    <string name="share">Share</string>
+    <string name="rate">Rate us</string>
+    <string name="exit">Exit</string>
+
+    <string name="info_kamila"><b>Beknazarova Kamilla Kamoliddinovna</b> (student of 6th grade of specialized school named after Muhammad al-Khwarizmi)</string>
+    <string name="info_madina"><b>Madina Abdurashidova</b> (student of 6th grade of specialized school named after Muhammad al-Khwarizmi)</string>
+    <string name="mentor">Mentor: Beknazarova Saida Safibullayevna</string>
 
 </resources>
