@@ -54,7 +54,7 @@
             android:orientation="vertical">
 
 
-            <androidx.recyclerview.widget.RecyclerView
+            <com.factor.bouncy.BouncyRecyclerView
                 android:id="@+id/rv_users"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

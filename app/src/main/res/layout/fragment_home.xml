@@ -82,7 +82,7 @@
 
             </LinearLayout>
 
-            <androidx.recyclerview.widget.RecyclerView
+            <com.factor.bouncy.BouncyRecyclerView
                 android:id="@+id/rv_section"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

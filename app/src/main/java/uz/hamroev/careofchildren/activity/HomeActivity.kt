@@ -122,6 +122,9 @@ class HomeActivity : AppCompatActivity() {
                 navController.popBackStack()
                 navController.navigate(R.id.homeFragment)
                 checkLanguage()
+                loadNavMenu()
+                navAdapter.list = listNav
+                navAdapter.notifyDataSetChanged()
                 dialog.dismiss()
             }
             bindingLanguage.uk.setOnClickListener {
@@ -129,6 +132,9 @@ class HomeActivity : AppCompatActivity() {
                 navController.popBackStack()
                 navController.navigate(R.id.homeFragment)
                 checkLanguage()
+                loadNavMenu()
+                navAdapter.list = listNav
+                navAdapter.notifyDataSetChanged()
                 dialog.dismiss()
             }
 

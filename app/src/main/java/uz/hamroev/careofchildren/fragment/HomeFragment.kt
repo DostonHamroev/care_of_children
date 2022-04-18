@@ -31,6 +31,7 @@ class HomeFragment : Fragment() {
 
         checkLanguage()
         loadData()
+        startAnimation()
         sectionAdapter = SectionAdapter(
             binding.root.context,
             list,
@@ -120,6 +121,11 @@ class HomeFragment : Fragment() {
 
 
         return binding.root
+    }
+
+    private fun startAnimation() {
+        binding.typeWriter.animateText("Care of Children")
+        binding.typeWriter.setCharacterDeley(70)
     }
 
     private fun loadData() {
