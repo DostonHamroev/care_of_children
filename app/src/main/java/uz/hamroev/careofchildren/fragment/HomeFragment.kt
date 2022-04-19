@@ -7,6 +7,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.google.android.material.snackbar.Snackbar
 import uz.hamroev.careofchildren.R
 import uz.hamroev.careofchildren.activity.SubjectActivity
 import uz.hamroev.careofchildren.adapter.SectionAdapter
@@ -119,6 +120,11 @@ class HomeFragment : Fragment() {
             })
         binding.rvSection.adapter = sectionAdapter
 
+        binding.cardLogo.setOnLongClickListener {
+            val snacbar = Snackbar.make(it, "Doston Hamroyev Davronovich", Snackbar.LENGTH_LONG)
+            snacbar.show()
+            true
+        }
 
         return binding.root
     }
@@ -176,7 +182,6 @@ class HomeFragment : Fragment() {
             context.resources.displayMetrics
         )
     }
-
 
 
 }
